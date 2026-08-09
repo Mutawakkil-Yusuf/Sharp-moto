@@ -33,9 +33,8 @@ Shap-Moto/
 ├── js/
 │   └── script.js
 ├── image/
-│   ├── home-img.png
-│   ├── vehicle-1.png
-│   ├── vehicle-2.png
+│   ├── car-1.png
+│   ├── car-2.png
 │   └── ...
 ├── README.md
 
