@@ -1,0 +1,279 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sharp Moto — Tokunbo Cars &amp; Service, Lagos</title>
+<meta name="description" content="Sharp Moto is a tokunbo car dealership and garage on the Lekki-Epe corridor, Lagos. Every car comes inspected, cleared, and ready to drive.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="nav-inner">
+    <a href="#top" class="logo">SHARP<span class="dot">MOTO</span></a>
+    <nav class="links">
+      <a href="#trust">Wetin We Check</a>
+      <a href="#inventory">Motor</a>
+      <a href="#service">Service</a>
+      <a href="#reviews">Wetin People Talk</a>
+      <a href="#visit">Come See Us</a>
+    </nav>
+    <a href="#inventory" class="nav-cta">See Motor</a>
+    <button id="menu-btn" aria-label="Toggle menu" aria-expanded="false"><i class="fas fa-bars"></i></button>
+  </div>
+  <div class="mobile-panel" id="mobile-panel">
+    <a href="#trust">Wetin We Check</a>
+    <a href="#inventory">Motor</a>
+    <a href="#service">Service</a>
+    <a href="#reviews">Wetin People Talk</a>
+    <a href="#visit">Come See Us</a>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="eyebrow">Lekki–Epe Expressway, Lagos</p>
+      <h1 class="display">Buy motor wey<br>no go <em>disappoint you.</em></h1>
+      <p class="lede">Every tokunbo for our yard don pass inspection. No flood, no accident, first body confirmed. Particulars dey ready, plate number process fit start same week. No agent, no middleman, you dey deal with us direct.</p>
+      <div class="hero-actions">
+        <a href="#inventory" class="btn-primary">See wetin dey yard</a>
+        <a href="#service" class="btn-ghost">Book service <i class="fas fa-arrow-right" style="margin-left:6px;"></i></a>
+      </div>
+      <div class="trust-row">
+        <span><i class="fas fa-check"></i>No flood damage</span>
+        <span><i class="fas fa-check"></i>First body confirmed</span>
+        <span><i class="fas fa-check"></i>Particulars ready</span>
+      </div>
+    </div>
+    <div class="hero-panel">
+      <span class="tag">Board 03 — Available</span>
+      <img src="image/home-img.png" alt="Featured tokunbo car currently at the Sharp Moto yard">
+      <div class="cap">
+        <span>2021 Model · Clean Interior</span>
+        <span>52,000 km</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="stat"><span class="num mono">8 yrs</span><span class="label">For Lekki-Epe road</span></div>
+  <div class="stat"><span class="num mono">2,300+</span><span class="label">Motor don sell</span></div>
+  <div class="stat"><span class="num mono">100%</span><span class="label">Inspected before yard</span></div>
+  <div class="stat"><span class="num mono">4.8 / 5</span><span class="label">Customer rating</span></div>
+</section>
+
+<section id="trust">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">Why Tokunbo Dey Scatter Person Head</p>
+        <h2 class="display">Wetin we check before any motor enter this yard</h2>
+      </div>
+      <p>Every yard for Lagos go tell you say their motor clean. We show you the actual checklist.</p>
+    </div>
+    <div class="checklist">
+      <div class="check-item">
+        <i class="fas fa-water"></i>
+        <div><h4>Flood check</h4><p>We check chassis, seat rails, and wiring for water damage. The thing wey most yard no dey talk about.</p></div>
+      </div>
+      <div class="check-item">
+        <i class="fas fa-car-side"></i>
+        <div><h4>First body confirmation</h4><p>Panel gap and paint thickness test to confirm say the motor no don repaint after accident.</p></div>
+      </div>
+      <div class="check-item">
+        <i class="fas fa-gauge-high"></i>
+        <div><h4>Odometer verification</h4><p>We cross-check mileage with service records, not just wetin dey show for dashboard.</p></div>
+      </div>
+      <div class="check-item">
+        <i class="fas fa-id-card"></i>
+        <div><h4>Correct particulars</h4><p>Custom papers, proof of ownership, and plate number process all dey verified before we list the motor.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="inventory">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">Wetin Dey Yard</p>
+        <h2 class="display">This week motor</h2>
+      </div>
+      <p>Six out of forty-plus tokunbo currently for the yard, inspected and priced. No negotiation wahala, price dey clear from the board.</p>
+    </div>
+    <div class="inv-grid reveal" id="inv-grid"></div>
+  </div>
+</section>
+
+<section id="service">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">The Garage</p>
+        <h2 class="display">Service wey dey make sense</h2>
+      </div>
+      <p>Flat price, correct parts, and mechanic wey go explain wetin dey wrong before he touch your motor.</p>
+    </div>
+
+    <div class="services-list">
+      <div class="svc-row">
+        <span class="num mono">01</span>
+        <h3><i class="fas fa-magnifying-glass"></i>Pre-purchase inspection</h3>
+        <p>Any tokunbo you wan buy, bring am make we check am well before you pay. Report ready same day, ₦25,000 flat.</p>
+      </div>
+      <div class="svc-row">
+        <span class="num mono">02</span>
+        <h3><i class="fas fa-file-shield"></i>Customs &amp; clearance help</h3>
+        <p>We go help you sort duty papers and clearance wahala for your imported motor, start to finish.</p>
+      </div>
+      <div class="svc-row">
+        <span class="num mono">03</span>
+        <h3><i class="fas fa-snowflake"></i>AC servicing</h3>
+        <p>Lagos hot no dey do anybody play. Full AC check and gas top-up, most jobs commot same day.</p>
+      </div>
+      <div class="svc-row">
+        <span class="num mono">04</span>
+        <h3><i class="fas fa-oil-can"></i>Full service &amp; oil change</h3>
+        <p>Scheduled maintenance with correct parts, logged for your motor so resale no go be palava later.</p>
+      </div>
+      <div class="svc-row">
+        <span class="num mono">05</span>
+        <h3><i class="fas fa-hand-holding-dollar"></i>Trade-in valuation</h3>
+        <p>Bring your old motor, we go value am fair based on real market price, same day cash offer.</p>
+      </div>
+      <div class="svc-row">
+        <span class="num mono">06</span>
+        <h3><i class="fas fa-headset"></i>Roadside support</h3>
+        <p>Anything wey you buy for us, 24/7 line for towing, jump-start, or if you lock your key inside.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="reviews">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">Word For Ground</p>
+        <h2 class="display">Wetin our customers talk</h2>
+      </div>
+      <p>Pulled from our after-sale survey. As e be, including the ones wey no gree five star.</p>
+    </div>
+  </div>
+
+  <div class="rev-track wrap" id="rev-track">
+    <div class="rev-card">
+      <p class="quote">"No be small thing to see inspection report before you pay. E match everything wey dem talk."</p>
+      <div class="rev-foot"><span>Tunde B. — Corolla, 2019</span><span class="stars">★★★★★</span></div>
+    </div>
+    <div class="rev-card">
+      <p class="quote">"Price no shake. I bring my old car, dem value am fair, cash same day. Straight to point."</p>
+      <div class="rev-foot"><span>Chiamaka O. — trade-in</span><span class="stars">★★★★★</span></div>
+    </div>
+    <div class="rev-card">
+      <p class="quote">"Clearance take extra week wey dem no talk before. But the car itself no get issue since I buy am."</p>
+      <div class="rev-foot"><span>Yusuf A. — SUV, 2020</span><span class="stars">★★★★☆</span></div>
+    </div>
+    <div class="rev-card">
+      <p class="quote">"Mechanic call me say I no need the part another shop for don quote me. That one alone don sell am for me."</p>
+      <div class="rev-foot"><span>Ifeoma N. — service</span><span class="stars">★★★★★</span></div>
+    </div>
+    <div class="rev-card">
+      <p class="quote">"E good but the waiting area small. If you dey come with family for test drive, prepare yourself."</p>
+      <div class="rev-foot"><span>Segun A. — hatchback, 2018</span><span class="stars">★★★★☆</span></div>
+    </div>
+    <div class="rev-card">
+      <p class="quote">"I don buy 3 cars from different yard before. This one na the only one wey show me flood check paper."</p>
+      <div class="rev-foot"><span>Blessing E. — Camry, 2016</span><span class="stars">★★★★★</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="visit">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">Come See Us</p>
+        <h2 class="display">Come check the motor for eye</h2>
+      </div>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h3 class="display">Sharp Moto Yard</h3>
+        <div class="info-line"><i class="fas fa-location-dot"></i><span>Km 15, Lekki-Epe Expressway, Ajah, Lagos</span></div>
+        <div class="info-line"><i class="fas fa-phone"></i><span>0814 452 5320</span></div>
+        <div class="info-line"><i class="fas fa-envelope"></i><span>mutticode@gmail.com</span></div>
+        <div class="hours"><span>Mon – Fri</span><span>8:00 – 19:00</span></div>
+        <div class="hours"><span>Saturday</span><span>9:00 – 17:00</span></div>
+        <div class="hours"><span>Sunday</span><span>Closed</span></div>
+        <div class="info-line" style="border-top:1px dashed var(--line); padding-top:16px; margin-top:4px;"><i class="fas fa-bolt"></i><span>Office dey run on backup power — light or no light, we dey available.</span></div>
+      </div>
+      <form class="contact-form" id="contact-form">
+        <h3 class="display" style="margin-bottom:6px;">Talk to us</h3>
+        <input class="field" type="text" placeholder="Your name" required>
+        <input class="field" type="email" placeholder="Your email" required>
+        <input class="field" type="text" placeholder="Wetin you dey find?">
+        <textarea class="field" placeholder="Tell us small more"></textarea>
+        <button type="submit" class="btn-primary">Send message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<div class="modal" id="history-modal">
+  <div class="modal-card">
+    <button class="modal-close" id="modal-close" aria-label="Close"><i class="fas fa-xmark"></i></button>
+    <div id="history-body"></div>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a href="#top" class="logo">SHARP<span class="dot">MOTO</span></a>
+        <p>A yard and garage for Ajah, run by mechanics wey tire for how tokunbo business dey normally go.</p>
+        <div class="social">
+          <a href="https://www.instagram.com/974meer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://x.com/AmeerInk" aria-label="X"><i class="fab fa-x-twitter"></i></a>
+        </div>
+      </div>
+      <div class="foot-col">
+        <h4>Explore</h4>
+        <a href="#inventory">Motor</a>
+        <a href="#service">Service</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#visit">Come See Us</a>
+      </div>
+      <div class="foot-col">
+        <h4>Company</h4>
+        <a href="#">About</a>
+        <a href="#">Work With Us</a>
+        <a href="#">Financing</a>
+      </div>
+      <div class="foot-col">
+        <h4>Contact</h4>
+        <p>0814 452 5320</p>
+        <p>mutticode@gmail.com</p>
+        <p>Km 15, Lekki-Epe Expressway, Ajah</p>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Built by Mutawakkil(Ameer). All rights reserved.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
